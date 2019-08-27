@@ -1,0 +1,28 @@
+1	git init
+2	git status
+3	git add info.txt
+4	git cpmmit
+5	git config --global user.email "nayak.amal1983@gmail.com"
+6	 git config --global user.name "Amal Nayak"
+7	git log
+8	git add .
+9	git commit -m ""
+10	git log --oneline
+11	git show <git id>
+12	git diff
+13 	git diff --staged
+14	git diff <commit ID> <commit id>
+15 	git rm <file name> - Detele a file
+16 	git reset HEAD <file name>
+17 	gir checkout <commit id> <file name> - for version control
+
+---------------------------------------
+
+echo "# git-example" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nramal/git-example.git
+git push -u origin master
+
+-----------------------
